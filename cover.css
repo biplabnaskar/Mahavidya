@@ -1,0 +1,75 @@
+ /* nav bar */
+.navbar-brand{
+    padding-left: 2rem;
+}
+#navbarNavDropdown{
+    padding-right: 2rem;
+}
+
+.navbar-nav li {
+    padding-left: 2rem;
+  }
+
+.custom-toggler-icon {
+    background: url("https://i.pinimg.com/736x/10/e3/3a/10e33aa9738343dc9ff1cbb4b858ed4a.jpg") no-repeat center center;
+    background-size: contain;
+    border: none;
+    width: 60px; /* Adjust the width and height as needed */
+    height: 60px; /* Adjust the width and height as needed */
+    margin-right: 2rem;
+    
+  }
+
+  .modal-content{
+    padding-bottom: 20px;
+  }
+.modal-content h2{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+     
+}
+
+.ori-div,.form-div,.descrp-div {
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.ori-div h3,.form-div h3,.descrp-div h3{
+    color: brown;
+}
+
+.img-div{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+ 
+/* For larger screens */
+@media screen and (min-width: 768px) {
+    .img-div img {
+        width: 80%; /* Adjust this value based on your layout needs */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+/* For extra-large screens */
+@media screen and (min-width: 1024px) {
+    .img-div img {
+        width: 30%; /* Further adjustment for larger screens */
+    }
+}
+
+/* For smaller screens (like mobile devices) */
+@media screen and (max-width: 767px) {
+    .img-div img {
+        width: 100%; /* Full width for mobile screens */
+    }
+}
+
+ 

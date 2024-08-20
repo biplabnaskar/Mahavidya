@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fdd41c;
+}
+
+/* nav bar */
+.navbar-brand{
+  padding-left: 2rem;
+}
+#navbarNavDropdown{
+  padding-right: 2rem;
+}
+
+.navbar-nav li {
+  padding-left: 2rem;
+}
+
+.custom-toggler-icon {
+  background: url("https://i.pinimg.com/736x/10/e3/3a/10e33aa9738343dc9ff1cbb4b858ed4a.jpg") no-repeat center center;
+  background-size: contain;
+  border: none;
+  width: 60px; /* Adjust the width and height as needed */
+  height: 60px; /* Adjust the width and height as needed */
+  margin-right: 2rem;
+  
+}
+
+/* about us  */
+
+  .About{
+    padding-top: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #12100c -20%, #f36e28 30%, #fdd41c 100%);
+  }
+  .About img{
+    width:80px ;
+    height: auto;
+  }
+   
+  .About h2 {
+    position: relative;
+    font-size: 36px;
+    background: linear-gradient(90deg, #c925be, #dcce30);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+  
+  .About h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the distance from the text */
+    width: 100%;
+    height: 3px; /* Adjust the thickness of the underline */
+    background: linear-gradient(90deg, #ff0000, #0000ff);
+    transform: scaleY(0.5); /* Adjusts the thickness */
+    z-index: -1; /* Ensures the underline stays behind the text */
+  }
+  
+  .about-content{
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+
+
+  /* footer */
+ 
+.footer {
+  background-color: #12100c;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  /* margin-top: 50px; */
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #0099ff;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
